@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ensemble-detector"
+version = "0.1.0"
+description = ""
+authors = ["Kobiri <kobiris1998@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ensemble_detector"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-contrib-python = "^4.6.0.66"
+imutils = "^0.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
